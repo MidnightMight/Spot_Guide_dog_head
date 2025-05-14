@@ -1,0 +1,6375 @@
+2025-05-13 14:47:21,368 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 14:47:23,692 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2025-05-13 14:47:23,719 - DEBUG - Created client for auth
+2025-05-13 14:47:23,719 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_timestamp {
+    seconds: 1747111643
+    nanos: 719549184
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+username: "user"
+password: "qurrtsecso7z"
+
+2025-05-13 14:47:23,928 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111643
+      nanos: 719549184
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127149
+    nanos: 655920732
+  }
+  response_timestamp {
+    seconds: 1747127149
+    nanos: 835887824
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NDcxMjcxNDksImlzcyI6InNwb3QtQkQtMTA1MzAwMTAiLCJleHAiOjE3NDcxNzAzNDksImp0aSI6InNwb3QtQkQtMTA1MzAwMTA0ODgiLCJuYmYiOjE3NDcxMjcxNDksInR5cCI6IkpXVCIsInVzZXIiOiJ1c2VyIiwibGV2ZWwiOjEsInBlciI6WyJzcG90LWNhbS12ZXJzaW9uIiwiaGF6YXJkLWF2b2lkYW5jZS1zZXJ2aWNlIiwicm9ib3Qtc3RhdGUiLCJyb2JvdC1taXNzaW9uIiwiZG9vciIsInJlY29yZGluZy1zZXJ2aWNlIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJwYXlsb2FkIiwicm9ib3Qtc3RhdGUtc3RyZWFtaW5nIiwibWFuaXB1bGF0aW9uIiwiYXVkaW8tdmlzdWFsIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJ0aW1lLXN5bmMiLCJkYXRhLWFjcXVpc2l0aW9uLXN0b3JlIiwiYXV0b3dhbGstc2VydmljZSIsInJvYm90LWNvbW1hbmQiLCJkYXRhLWFjcXVpc2l0aW9uIiwicG93ZXIiLCJzcG90LWNhbS1wdHoiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbGlnaHRpbmciLCJzcG90LWNhbS1hdWRpbyIsInNwb3QtY2FtLXBvd2VyIiwic3BvdC1jYW0tY29tcG9zaXRvciIsImF1dG8tcmV0dXJuIiwicm9ib3QtaWQiLCJzcG90LWNhbS1oZWFsdGgiLCJzZW5zb3ItcG9pbnRpbmctc2VydmljZSIsImltYWdlIiwiZmF1bHQiLCJsaWNlbnNlIiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLXN0YXR1cyIsImRhdGEtYnVmZmVyIiwicHViLXN1Yi1icmlkZ2UiLCJsb2ctYW5ub3RhdGlvbiIsInNwb3QtY2hlY2siLCJsZWFzZSIsInNwb3QtY2FtLW5ldHdvcmsiLCJwYXlsb2FkLXJlZ2lzdHJhdGlvbiIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1tZWRpYS1sb2ciLCJzcG90LWNhbS1zdHJlYW0tcXVhbGl0eSIsInJvYm90LWNvbW1hbmQtc3RyZWFtaW5nIiwic2Vuc29yLXBvaW50aW5nLXNlcnZpY2Utc3BvdGNhbSIsImRhdGEiLCJhdXRoIiwiZXN0b3AiLCJkaXJlY3RvcnkiLCJhcm0tc3VyZmFjZS1jb250YWN0Il19.XOKir9RJHpmskmHndbyxrcmFvvmuoTweI5HgmTA3HKFgodfdsKjrkAVyhu15rhEWcpo9TtqH0qlEbDrItO2M7Q"
+
+2025-05-13 14:47:23,947 - DEBUG - Created client for time-sync
+2025-05-13 14:47:23,947 - DEBUG - Created client for directory
+2025-05-13 14:47:23,962 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2025-05-13 14:47:23,962 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_timestamp {
+    seconds: 1747111643
+    nanos: 962173952
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+
+2025-05-13 14:47:24,040 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111643
+      nanos: 962173952
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127149
+    nanos: 937427993
+  }
+  response_timestamp {
+    seconds: 1747127149
+    nanos: 937429087
+  }
+  error {
+    code: CODE_OK
+  }
+}
+service_entries {
+  name: "audio-visual"
+  type: "bosdyn.api.AudioVisualService"
+  authority: "audio-visual.spot.robot"
+  last_update {
+    seconds: 1747127132
+    nanos: 756870643
+  }
+  user_token_required: true
+  permission_required: "audio-visual"
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1747127148
+    nanos: 991552744
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1747127128
+    nanos: 796907196
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "autowalk-service"
+  type: "bosdyn.api.autowalk.AutowalkService"
+  authority: "autowalk.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 606419778
+  }
+  user_token_required: true
+  permission_required: "autowalk-service"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 261260483
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1747127127
+    nanos: 458916667
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1747127139
+    nanos: 390593646
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1747127135
+    nanos: 441324923
+  }
+  user_token_required: true
+  permission_required: "data-acquisition-store"
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1747127127
+    nanos: 285434087
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1747127127
+    nanos: 678332939
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 18975182
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 24395738
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1747127124
+    nanos: 902696761
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1747127124
+    nanos: 375956855
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 210747333
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1747127119
+    nanos: 983158889
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "gps-aggregator"
+  type: "bosdyn.api.gps.AggregatorService"
+  authority: "aggregator.spot.robot"
+  last_update {
+    seconds: 1747127132
+    nanos: 996531641
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "gps-registration"
+  type: "bosdyn.api.gps.RegistrationService"
+  authority: "registration.spot.robot"
+  last_update {
+    seconds: 1747127133
+    nanos: 188926953
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1747127134
+    nanos: 898936853
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "hazard-avoidance-service"
+  type: "bosdyn.api.HazardAvoidanceService"
+  authority: "hazardavoidance.spot.robot"
+  last_update {
+    seconds: 1747127132
+    nanos: 243337403
+  }
+  user_token_required: true
+  permission_required: "hazard-avoidance-service"
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127120
+    nanos: 538568513
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.ground-clutter"
+  type: "bosdyn.api.internal.ground_clutter.GroundClutterService"
+  authority: "ground-clutter.spot.robot"
+  last_update {
+    seconds: 1747127126
+    nanos: 887545362
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1747127123
+    nanos: 572569284
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.long-range-map"
+  type: "bosdyn.api.internal.LongRangeMapService"
+  authority: "long-range-map.spot.robot"
+  last_update {
+    seconds: 1747127124
+    nanos: 347522
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "inverse-kinematics"
+  type: "bosdyn.api.spot.InverseKinematicsService"
+  authority: "inverse-kinematics.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 944192037
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 3569859
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "keepalive"
+  type: "bosdyn.api.keepalive.KeepaliveService"
+  authority: "keepalive.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 925364924
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127148
+    nanos: 990000356
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127148
+    nanos: 990588282
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1747127131
+    nanos: 838520037
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-status"
+  type: "bosdyn.api.log_status.LogStatusService"
+  authority: "logstatus.spot.robot"
+  last_update {
+    seconds: 1747127130
+    nanos: 122683572
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1747127134
+    nanos: 496566438
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1747127122
+    nanos: 951956753
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1747127136
+    nanos: 670018107
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1747127120
+    nanos: 914762731
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 62696450
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 64445726
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 55286822
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "pub-sub-bridge"
+  type: "bosdyn.api.internal.PubSubBridgeService"
+  authority: "pub-sub-bridge.spot.robot"
+  last_update {
+    seconds: 1747123329
+    nanos: 564328824
+  }
+  user_token_required: true
+  permission_required: "pub-sub-bridge"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1747127128
+    nanos: 220526764
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1747127134
+    nanos: 162345963
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 910136252
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-command-streaming"
+  type: "bosdyn.api.RobotCommandStreamingService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 954349721
+  }
+  user_token_required: true
+  permission_required: "robot-command-streaming"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 885133719
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 729499722
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127149
+    nanos: 668672362
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "robot-state-streaming"
+  type: "bosdyn.api.RobotStateStreamingService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127138
+    nanos: 969327294
+  }
+  user_token_required: true
+  permission_required: "robot-state-streaming"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1747127126
+    nanos: 380426489
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1747127126
+    nanos: 544993950
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1747127119
+    nanos: 957228967
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "thermal-inspection"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "thermal-inspection.spot.robot"
+  last_update {
+    seconds: 1747123326
+    nanos: 667604636
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127120
+    nanos: 257150038
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1747127131
+    nanos: 151952436
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+2025-05-13 14:47:24,070 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 70318592
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+
+2025-05-13 14:47:24,085 - DEBUG - Created client for lease
+2025-05-13 14:47:24,085 - DEBUG - Created client for estop
+2025-05-13 14:47:24,100 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2025-05-13 14:47:24,100 - DEBUG - Created client for power
+2025-05-13 14:47:24,130 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2025-05-13 14:47:24,130 - DEBUG - Created client for robot-state
+2025-05-13 14:47:24,130 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 70318592
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 12201071
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 12206110
+  }
+  error {
+    code: CODE_OK
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,131 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 131485440
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 70318592
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 12201071
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 12206110
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 131485440
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,131 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2025-05-13 14:47:24,146 - DEBUG - Created client for robot-command
+2025-05-13 14:47:24,146 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2025-05-13 14:47:24,146 - DEBUG - Created client for image
+2025-05-13 14:47:24,147 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 147460608
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+resource: "body"
+
+2025-05-13 14:47:24,286 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 131485440
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 88777149
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 88786211
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 61161809
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 911301574
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,286 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 286140672
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 131485440
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 88777149
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 88786211
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 286140672
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,348 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 147460608
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 182407713
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 182774369
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 14
+  client_names: "root"
+}
+lease_owner {
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+
+2025-05-13 14:47:24,364 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 286140672
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 214604613
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 214634629
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 154646170
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 879968624
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,364 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 364172288
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 286140672
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 214604613
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 214634629
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 364172288
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,380 - INFO - Starting lease check-in
+2025-05-13 14:47:24,411 - DEBUG - Created client for robot-id
+2025-05-13 14:47:24,426 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority id.spot.robot
+2025-05-13 14:47:24,427 - DEBUG - blocking request: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 427445248
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+
+2025-05-13 14:47:24,428 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 427445248
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 14
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+2025-05-13 14:47:24,489 - DEBUG - response: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 427445248
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 370458725
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 370471362
+  }
+  error {
+    code: CODE_OK
+  }
+}
+robot_id {
+  serial_number: "spot-BD-10530010"
+  species: "spot"
+  version: "V3"
+  software_release {
+    version {
+      major_version: 4
+      minor_version: 1
+      patch_level: 1
+    }
+    changeset_date {
+      seconds: 1734114264
+    }
+    changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+    install_date {
+      seconds: 1734115580
+    }
+  }
+  nickname: "spot-BD-10530010"
+  computer_serial_number: "02-20420-0409"
+}
+
+2025-05-13 14:47:24,489 - DEBUG - blocking request: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 489435136
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+
+2025-05-13 14:47:24,536 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 364172288
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 308464200
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 308469745
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 78001600
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 889463141
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,552 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 552017664
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 364172288
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 308464200
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 308469745
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 552017664
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,552 - DEBUG - response: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 489435136
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 450472815
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 451618420
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetEstopConfigRequest"
+    value: "\n:\n\014\010\334\235\213\301\006\020\200\340\260\351\001\022*WASDClientMidnight_X9520:__main__.py-66940"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "15"
+}
+
+2025-05-13 14:47:24,553 - DEBUG - blocking request: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 552017664
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+  }
+}
+target_config_id: "15"
+
+2025-05-13 14:47:24,553 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 427445248
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 402511457
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 402723316
+  }
+  error {
+    code: CODE_OK
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 14
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 14
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 14
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "fan"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 14
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 14
+    client_names: "root"
+  }
+}
+
+2025-05-13 14:47:24,553 - DEBUG - Check-in successful
+2025-05-13 14:47:24,600 - DEBUG - response: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 552017664
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 468572815
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 470181030
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.SetEstopConfigRequest"
+    value: "\n:\n\014\010\334\235\213\301\006\020\200\276\234\207\002\022*WASDClientMidnight_X9520:__main__.py-66940\032 \n\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"\00215"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "16"
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:47:24,600 - DEBUG - Registering to 16
+2025-05-13 14:47:24,615 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 615744000
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "16"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  timeout {
+    seconds: 9
+  }
+}
+
+2025-05-13 14:47:24,708 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 552017664
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 544165007
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 544170718
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 187839831
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 850371996
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,708 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 708762112
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 552017664
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 544165007
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 544170718
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 708762112
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,724 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 615744000
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 579372815
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 581583312
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\n:\n\014\010\334\235\213\301\006\020\200\204\316\245\002\022*WASDClientMidnight_X9520:__main__.py-66940\022\014\n\nPDB_rooted\032\00216"\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"
+  }
+}
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "16"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:47:24,739 - DEBUG - Doing check-in to seed challenge...
+2025-05-13 14:47:24,739 - DEBUG - Stopping
+2025-05-13 14:47:24,739 - DEBUG - blocking request: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 739609600
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "16"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+stop_level: ESTOP_LEVEL_CUT
+
+2025-05-13 14:47:24,771 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 708762112
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 637199771
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 637205141
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 156738737
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 913777974
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,771 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 771624704
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 708762112
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 637199771
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 637205141
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 771624704
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,817 - DEBUG - response: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 739609600
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 687372815
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 689466193
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.EstopCheckInRequest"
+    value: "\n:\n\014\010\334\235\213\301\006\020\200\230\326\340\002\022*WASDClientMidnight_X9520:__main__.py-66940\022"\n\nPDB_rooted\022\010GNClient\032\00216"\002\010\t*\002\010\021(\001"
+  }
+}
+challenge: 38097340
+status: STATUS_OK
+
+2025-05-13 14:47:24,833 - DEBUG - Registering to 192.168.80.3
+2025-05-13 14:47:24,849 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 849742848
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "192.168.80.3"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "16"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+
+2025-05-13 14:47:24,879 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 771624704
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 702079907
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 702085877
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 62857222
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 897009048
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,879 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111644
+    nanos: 879764992
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111644
+    nanos: 771624704
+  }
+  server_rx {
+    seconds: 1747127150
+    nanos: 702079907
+  }
+  server_tx {
+    seconds: 1747127150
+    nanos: 702085877
+  }
+  client_rx {
+    seconds: 1747111644
+    nanos: 879764992
+  }
+}
+clock_identifier: "7a8fc013-f407-4903-8568-11ff3c368f46"
+
+2025-05-13 14:47:24,896 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111644
+      nanos: 849742848
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-66940"
+  }
+  request_received_timestamp {
+    seconds: 1747127150
+    nanos: 777472815
+  }
+  response_timestamp {
+    seconds: 1747127150
+    nanos: 779149926
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\n:\n\014\010\334\235\213\301\006\020\200\230\230\225\003\022*WASDClientMidnight_X9520:__main__.py-66940\022\014\n\nPDB_rooted\032\014192.168.80.3""\n\nPDB_rooted\022\010GNClient\032\00216"\002\010\t*\002\010\021"
+  }
+}
+status: STATUS_CONFIG_MISMATCH
+
+2025-05-13 14:47:24,896 - ERROR - Failed to initialize robot communication: bosdyn.api.RegisterEstopEndpointResponse (ConfigMismatchError): Registered to the wrong configuration.
+2025-05-13 14:49:59,029 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 14:50:01,347 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2025-05-13 14:50:01,347 - DEBUG - Created client for auth
+2025-05-13 14:50:01,347 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 347995136
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+username: "user"
+password: "qurrtsecso7z"
+
+2025-05-13 14:50:01,579 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 347995136
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 281469263
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 476256268
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NDcxMjczMDcsImlzcyI6InNwb3QtQkQtMTA1MzAwMTAiLCJleHAiOjE3NDcxNzA1MDcsImp0aSI6InNwb3QtQkQtMTA1MzAwMTA0ODkiLCJuYmYiOjE3NDcxMjczMDcsInR5cCI6IkpXVCIsInVzZXIiOiJ1c2VyIiwibGV2ZWwiOjEsInBlciI6WyJzcG90LWNhbS12ZXJzaW9uIiwiaGF6YXJkLWF2b2lkYW5jZS1zZXJ2aWNlIiwicm9ib3Qtc3RhdGUiLCJyb2JvdC1taXNzaW9uIiwiZG9vciIsInJlY29yZGluZy1zZXJ2aWNlIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJwYXlsb2FkIiwicm9ib3Qtc3RhdGUtc3RyZWFtaW5nIiwibWFuaXB1bGF0aW9uIiwiYXVkaW8tdmlzdWFsIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJ0aW1lLXN5bmMiLCJkYXRhLWFjcXVpc2l0aW9uLXN0b3JlIiwiYXV0b3dhbGstc2VydmljZSIsInJvYm90LWNvbW1hbmQiLCJkYXRhLWFjcXVpc2l0aW9uIiwicG93ZXIiLCJzcG90LWNhbS1wdHoiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbGlnaHRpbmciLCJzcG90LWNhbS1hdWRpbyIsInNwb3QtY2FtLXBvd2VyIiwic3BvdC1jYW0tY29tcG9zaXRvciIsImF1dG8tcmV0dXJuIiwicm9ib3QtaWQiLCJzcG90LWNhbS1oZWFsdGgiLCJzZW5zb3ItcG9pbnRpbmctc2VydmljZSIsImltYWdlIiwiZmF1bHQiLCJsaWNlbnNlIiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLXN0YXR1cyIsImRhdGEtYnVmZmVyIiwicHViLXN1Yi1icmlkZ2UiLCJsb2ctYW5ub3RhdGlvbiIsInNwb3QtY2hlY2siLCJsZWFzZSIsInNwb3QtY2FtLW5ldHdvcmsiLCJwYXlsb2FkLXJlZ2lzdHJhdGlvbiIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1tZWRpYS1sb2ciLCJzcG90LWNhbS1zdHJlYW0tcXVhbGl0eSIsInJvYm90LWNvbW1hbmQtc3RyZWFtaW5nIiwic2Vuc29yLXBvaW50aW5nLXNlcnZpY2Utc3BvdGNhbSIsImRhdGEiLCJhdXRoIiwiZXN0b3AiLCJkaXJlY3RvcnkiLCJhcm0tc3VyZmFjZS1jb250YWN0Il19._Q4gtc3Juw2z3rq0s0B3HptOBVU6YxnSBsU2rFiitgG184QjujbSdtFsy7CEgmM4dtRub9Nd5VmBMiIfzR4Pfw"
+
+2025-05-13 14:50:01,592 - DEBUG - Created client for time-sync
+2025-05-13 14:50:01,607 - DEBUG - Created client for directory
+2025-05-13 14:50:01,622 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2025-05-13 14:50:01,624 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 622933248
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+
+2025-05-13 14:50:01,697 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 622933248
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 581905895
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 581906759
+  }
+  error {
+    code: CODE_OK
+  }
+}
+service_entries {
+  name: "audio-visual"
+  type: "bosdyn.api.AudioVisualService"
+  authority: "audio-visual.spot.robot"
+  last_update {
+    seconds: 1747127282
+    nanos: 758039390
+  }
+  user_token_required: true
+  permission_required: "audio-visual"
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 990356411
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1747127278
+    nanos: 796909167
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "autowalk-service"
+  type: "bosdyn.api.autowalk.AutowalkService"
+  authority: "autowalk.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 606323367
+  }
+  user_token_required: true
+  permission_required: "autowalk-service"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 261487405
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1747127307
+    nanos: 458858920
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1747127289
+    nanos: 391045296
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1747127285
+    nanos: 441088130
+  }
+  user_token_required: true
+  permission_required: "data-acquisition-store"
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1747127307
+    nanos: 285503210
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1747127277
+    nanos: 678172548
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 18975182
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 24395738
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1747127304
+    nanos: 902342355
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1747127304
+    nanos: 376032095
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1747127307
+    nanos: 210758306
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 983212488
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "gps-aggregator"
+  type: "bosdyn.api.gps.AggregatorService"
+  authority: "aggregator.spot.robot"
+  last_update {
+    seconds: 1747127282
+    nanos: 996522686
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "gps-registration"
+  type: "bosdyn.api.gps.RegistrationService"
+  authority: "registration.spot.robot"
+  last_update {
+    seconds: 1747127283
+    nanos: 188663463
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1747127284
+    nanos: 898850026
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "hazard-avoidance-service"
+  type: "bosdyn.api.HazardAvoidanceService"
+  authority: "hazardavoidance.spot.robot"
+  last_update {
+    seconds: 1747127282
+    nanos: 243339210
+  }
+  user_token_required: true
+  permission_required: "hazard-avoidance-service"
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127300
+    nanos: 538690628
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.ground-clutter"
+  type: "bosdyn.api.internal.ground_clutter.GroundClutterService"
+  authority: "ground-clutter.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 887612134
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1747127303
+    nanos: 572459283
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.long-range-map"
+  type: "bosdyn.api.internal.LongRangeMapService"
+  authority: "long-range-map.spot.robot"
+  last_update {
+    seconds: 1747127304
+    nanos: 296282
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "inverse-kinematics"
+  type: "bosdyn.api.spot.InverseKinematicsService"
+  authority: "inverse-kinematics.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 944067986
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 3626082
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "keepalive"
+  type: "bosdyn.api.keepalive.KeepaliveService"
+  authority: "keepalive.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 925084216
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 989184760
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 989855048
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1747127281
+    nanos: 832556457
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-status"
+  type: "bosdyn.api.log_status.LogStatusService"
+  authority: "logstatus.spot.robot"
+  last_update {
+    seconds: 1747127280
+    nanos: 122749358
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1747127284
+    nanos: 496783452
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1747127302
+    nanos: 952010572
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1747127286
+    nanos: 669793847
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1747127300
+    nanos: 914718352
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 62608590
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 64418631
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 55258060
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "pub-sub-bridge"
+  type: "bosdyn.api.internal.PubSubBridgeService"
+  authority: "pub-sub-bridge.spot.robot"
+  last_update {
+    seconds: 1747123329
+    nanos: 564328824
+  }
+  user_token_required: true
+  permission_required: "pub-sub-bridge"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1747127278
+    nanos: 220663092
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1747127284
+    nanos: 164070993
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 910098290
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-command-streaming"
+  type: "bosdyn.api.RobotCommandStreamingService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 954342975
+  }
+  user_token_required: true
+  permission_required: "robot-command-streaming"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 885062037
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1747127304
+    nanos: 733303252
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 668653138
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "robot-state-streaming"
+  type: "bosdyn.api.RobotStateStreamingService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127288
+    nanos: 969362805
+  }
+  user_token_required: true
+  permission_required: "robot-state-streaming"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 380551180
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1747127306
+    nanos: 545828819
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1747127299
+    nanos: 957212664
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "thermal-inspection"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "thermal-inspection.spot.robot"
+  last_update {
+    seconds: 1747123326
+    nanos: 667604636
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127300
+    nanos: 256950898
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1747127281
+    nanos: 151811260
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+2025-05-13 14:50:01,713 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 713512192
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+
+2025-05-13 14:50:01,728 - DEBUG - Created client for lease
+2025-05-13 14:50:01,728 - DEBUG - Created client for estop
+2025-05-13 14:50:01,728 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2025-05-13 14:50:01,729 - DEBUG - Created client for power
+2025-05-13 14:50:01,729 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2025-05-13 14:50:01,729 - DEBUG - Created client for robot-state
+2025-05-13 14:50:01,759 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2025-05-13 14:50:01,774 - DEBUG - Created client for robot-command
+2025-05-13 14:50:01,774 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 713512192
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 642935310
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 642938930
+  }
+  error {
+    code: CODE_OK
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:01,806 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 806371328
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111801
+    nanos: 713512192
+  }
+  server_rx {
+    seconds: 1747127307
+    nanos: 642935310
+  }
+  server_tx {
+    seconds: 1747127307
+    nanos: 642938930
+  }
+  client_rx {
+    seconds: 1747111801
+    nanos: 806371328
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:01,807 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2025-05-13 14:50:01,836 - DEBUG - Created client for image
+2025-05-13 14:50:01,836 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 836579584
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+resource: "body"
+
+2025-05-13 14:50:01,884 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 806371328
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 749301218
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 749309707
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 92855516
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 882995360
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:01,947 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111801
+    nanos: 947461888
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111801
+    nanos: 806371328
+  }
+  server_rx {
+    seconds: 1747127307
+    nanos: 749301218
+  }
+  server_tx {
+    seconds: 1747127307
+    nanos: 749309707
+  }
+  client_rx {
+    seconds: 1747111801
+    nanos: 947461888
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,026 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 836579584
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 876179434
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 876569387
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 15
+  client_names: "root"
+}
+lease_owner {
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+
+2025-05-13 14:50:02,026 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111801
+      nanos: 947461888
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127307
+    nanos: 891459466
+  }
+  response_timestamp {
+    seconds: 1747127307
+    nanos: 891465076
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 141082071
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 872388854
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,042 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 42174976
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111801
+    nanos: 947461888
+  }
+  server_rx {
+    seconds: 1747127307
+    nanos: 891459466
+  }
+  server_tx {
+    seconds: 1747127307
+    nanos: 891465076
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 42174976
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,042 - INFO - Starting lease check-in
+2025-05-13 14:50:02,058 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 58171648
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 15
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+2025-05-13 14:50:02,058 - DEBUG - Created client for robot-id
+2025-05-13 14:50:02,088 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority id.spot.robot
+2025-05-13 14:50:02,089 - DEBUG - blocking request: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 89555200
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+
+2025-05-13 14:50:02,134 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 42174976
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 2379458
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 2385391
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 94707478
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 896643839
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,134 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 134841344
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 42174976
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 2379458
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 2385391
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 134841344
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,180 - DEBUG - response: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 89555200
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 47453669
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 47469426
+  }
+  error {
+    code: CODE_OK
+  }
+}
+robot_id {
+  serial_number: "spot-BD-10530010"
+  species: "spot"
+  version: "V3"
+  software_release {
+    version {
+      major_version: 4
+      minor_version: 1
+      patch_level: 1
+    }
+    changeset_date {
+      seconds: 1734114264
+    }
+    changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+    install_date {
+      seconds: 1734115580
+    }
+  }
+  nickname: "spot-BD-10530010"
+  computer_serial_number: "02-20420-0409"
+}
+
+2025-05-13 14:50:02,196 - DEBUG - blocking request: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 196790272
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+
+2025-05-13 14:50:02,303 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 58171648
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 153865864
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 154062498
+  }
+  error {
+    code: CODE_OK
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 15
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 15
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 15
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "fan"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 15
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 15
+    client_names: "root"
+  }
+}
+
+2025-05-13 14:50:02,318 - DEBUG - response: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 196790272
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 219521215
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 221663827
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetEstopConfigRequest"
+    value: "\n9\n\013\010\372\236\213\301\006\020\200\220\353]\022*WASDClientMidnight_X9520:__main__.py-37592"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "16"
+}
+
+2025-05-13 14:50:02,318 - DEBUG - Check-in successful
+2025-05-13 14:50:02,364 - DEBUG - blocking request: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 364752896
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+  }
+}
+target_config_id: "16"
+
+2025-05-13 14:50:02,410 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 134841344
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 184456867
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 184461640
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 92660435
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 913874264
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,411 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 411845376
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 134841344
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 184456867
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 184461640
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 410818304
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,490 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 411845376
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 362057146
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 362061973
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 275972187
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 911629429
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,490 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 490820608
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 411845376
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 362057146
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 362061973
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 490820608
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,522 - DEBUG - response: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 364752896
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 375421215
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 376349176
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.SetEstopConfigRequest"
+    value: "\n:\n\014\010\372\236\213\301\006\020\200\340\366\255\001\022*WASDClientMidnight_X9520:__main__.py-37592\032 \n\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"\00216"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "17"
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:50:02,538 - DEBUG - Registering to 17
+2025-05-13 14:50:02,538 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 538832384
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "17"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  timeout {
+    seconds: 9
+  }
+}
+
+2025-05-13 14:50:02,579 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 490820608
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 436570794
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 436577478
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 78970405
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 910726567
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,579 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 579796736
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 490820608
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 436570794
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 436577478
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 579796736
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,588 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 538832384
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 495527165
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 496958635
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\n:\n\014\010\372\236\213\301\006\020\200\334\367\200\002\022*WASDClientMidnight_X9520:__main__.py-37592\022\014\n\nPDB_rooted\032\00217"\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"
+  }
+}
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "17"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:50:02,588 - DEBUG - Doing check-in to seed challenge...
+2025-05-13 14:50:02,588 - DEBUG - Stopping
+2025-05-13 14:50:02,588 - DEBUG - blocking request: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 588800256
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "17"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+stop_level: ESTOP_LEVEL_CUT
+
+2025-05-13 14:50:02,595 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 579796736
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 504334287
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 504341701
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 88969444
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 901265464
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,596 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 596796672
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 579796736
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 504334287
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 504341701
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 596796672
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,602 - DEBUG - response: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 588800256
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 507627165
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 509066778
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.EstopCheckInRequest"
+    value: "\n:\n\014\010\372\236\213\301\006\020\200\302\341\230\002\022*WASDClientMidnight_X9520:__main__.py-37592\022"\n\nPDB_rooted\022\010GNClient\032\00217"\002\010\t*\002\010\021(\001"
+  }
+}
+challenge: 39675520
+status: STATUS_INCORRECT_CHALLENGE_RESPONSE
+
+2025-05-13 14:50:02,602 - DEBUG - Registering to serial_number: "spot-BD-10530010"
+species: "spot"
+version: "V3"
+software_release {
+  version {
+    major_version: 4
+    minor_version: 1
+    patch_level: 1
+  }
+  changeset_date {
+    seconds: 1734114264
+  }
+  changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+  install_date {
+    seconds: 1734115580
+  }
+}
+nickname: "spot-BD-10530010"
+computer_serial_number: "02-20420-0409"
+
+2025-05-13 14:50:02,605 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 596796672
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 511326845
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 511331778
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 16992522
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 916041290
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,605 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 605453824
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 596796672
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 511326845
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 511331778
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 605453824
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,613 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 605453824
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 520045610
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 520050564
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 8652219
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 910204063
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,614 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 614056192
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 605453824
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 520045610
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 520050564
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 614056192
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,620 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 614056192
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 528128285
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 528132784
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 8597414
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 910293079
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,621 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 621058048
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 614056192
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 528128285
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 528132784
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 621058048
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,630 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747111802
+      nanos: 621058048
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+  }
+  request_received_timestamp {
+    seconds: 1747127308
+    nanos: 534856212
+  }
+  response_timestamp {
+    seconds: 1747127308
+    nanos: 534860097
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 6997357
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 910573414
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:50:02,631 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747111802
+    nanos: 631019520
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-37592"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747111802
+    nanos: 621058048
+  }
+  server_rx {
+    seconds: 1747127308
+    nanos: 534856212
+  }
+  server_tx {
+    seconds: 1747127308
+    nanos: 534860097
+  }
+  client_rx {
+    seconds: 1747111802
+    nanos: 631019520
+  }
+}
+clock_identifier: "89ee3914-12d4-445d-a0b9-c6e5b8263122"
+
+2025-05-13 14:51:52,672 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 14:52:31,264 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 14:53:17,162 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 14:53:20,752 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2025-05-13 14:53:20,752 - DEBUG - Created client for auth
+2025-05-13 14:53:20,753 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_timestamp {
+    seconds: 1747112000
+    nanos: 753704192
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+username: "user"
+password: "qurrtsecso7z"
+
+2025-05-13 14:53:20,949 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112000
+      nanos: 753704192
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127506
+    nanos: 681768715
+  }
+  response_timestamp {
+    seconds: 1747127506
+    nanos: 858136113
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NDcxMjc1MDYsImlzcyI6InNwb3QtQkQtMTA1MzAwMTAiLCJleHAiOjE3NDcxNzA3MDYsImp0aSI6InNwb3QtQkQtMTA1MzAwMTA0OTYiLCJuYmYiOjE3NDcxMjc1MDYsInR5cCI6IkpXVCIsInVzZXIiOiJ1c2VyIiwibGV2ZWwiOjEsInBlciI6WyJzcG90LWNhbS12ZXJzaW9uIiwiaGF6YXJkLWF2b2lkYW5jZS1zZXJ2aWNlIiwicm9ib3Qtc3RhdGUiLCJyb2JvdC1taXNzaW9uIiwiZG9vciIsInJlY29yZGluZy1zZXJ2aWNlIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJwYXlsb2FkIiwicm9ib3Qtc3RhdGUtc3RyZWFtaW5nIiwibWFuaXB1bGF0aW9uIiwiYXVkaW8tdmlzdWFsIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJ0aW1lLXN5bmMiLCJkYXRhLWFjcXVpc2l0aW9uLXN0b3JlIiwiYXV0b3dhbGstc2VydmljZSIsInJvYm90LWNvbW1hbmQiLCJkYXRhLWFjcXVpc2l0aW9uIiwicG93ZXIiLCJzcG90LWNhbS1wdHoiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbGlnaHRpbmciLCJzcG90LWNhbS1hdWRpbyIsInNwb3QtY2FtLXBvd2VyIiwic3BvdC1jYW0tY29tcG9zaXRvciIsImF1dG8tcmV0dXJuIiwicm9ib3QtaWQiLCJzcG90LWNhbS1oZWFsdGgiLCJzZW5zb3ItcG9pbnRpbmctc2VydmljZSIsImltYWdlIiwiZmF1bHQiLCJsaWNlbnNlIiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLXN0YXR1cyIsImRhdGEtYnVmZmVyIiwicHViLXN1Yi1icmlkZ2UiLCJsb2ctYW5ub3RhdGlvbiIsInNwb3QtY2hlY2siLCJsZWFzZSIsInNwb3QtY2FtLW5ldHdvcmsiLCJwYXlsb2FkLXJlZ2lzdHJhdGlvbiIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1tZWRpYS1sb2ciLCJzcG90LWNhbS1zdHJlYW0tcXVhbGl0eSIsInJvYm90LWNvbW1hbmQtc3RyZWFtaW5nIiwic2Vuc29yLXBvaW50aW5nLXNlcnZpY2Utc3BvdGNhbSIsImRhdGEiLCJhdXRoIiwiZXN0b3AiLCJkaXJlY3RvcnkiLCJhcm0tc3VyZmFjZS1jb250YWN0Il19.wPfgoe0fojubjkR1Dno4FkPOvKeuWtYxNy1qidd2ORULOsrclgbx5GherbgJ-BBr2RFJajbCVdBj1hhhj0vbhw"
+
+2025-05-13 14:53:20,968 - DEBUG - Created client for time-sync
+2025-05-13 14:53:20,968 - DEBUG - Created client for directory
+2025-05-13 14:53:20,984 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2025-05-13 14:53:20,984 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_timestamp {
+    seconds: 1747112000
+    nanos: 984872448
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+
+2025-05-13 14:53:21,046 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112000
+      nanos: 984872448
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127506
+    nanos: 947372931
+  }
+  response_timestamp {
+    seconds: 1747127506
+    nanos: 947373722
+  }
+  error {
+    code: CODE_OK
+  }
+}
+service_entries {
+  name: "audio-visual"
+  type: "bosdyn.api.AudioVisualService"
+  authority: "audio-visual.spot.robot"
+  last_update {
+    seconds: 1747127492
+    nanos: 757070730
+  }
+  user_token_required: true
+  permission_required: "audio-visual"
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1747127505
+    nanos: 988618980
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1747127488
+    nanos: 797019519
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "autowalk-service"
+  type: "bosdyn.api.autowalk.AutowalkService"
+  authority: "autowalk.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 606403852
+  }
+  user_token_required: true
+  permission_required: "autowalk-service"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 261366475
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1747127487
+    nanos: 458882729
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1747127499
+    nanos: 391478383
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1747127495
+    nanos: 443762739
+  }
+  user_token_required: true
+  permission_required: "data-acquisition-store"
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1747127487
+    nanos: 285508445
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1747127487
+    nanos: 679701224
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 18975182
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 24395738
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1747127484
+    nanos: 902314431
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1747127484
+    nanos: 376038413
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1747127506
+    nanos: 210781841
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 983295620
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "gps-aggregator"
+  type: "bosdyn.api.gps.AggregatorService"
+  authority: "aggregator.spot.robot"
+  last_update {
+    seconds: 1747127492
+    nanos: 999826993
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "gps-registration"
+  type: "bosdyn.api.gps.RegistrationService"
+  authority: "registration.spot.robot"
+  last_update {
+    seconds: 1747127493
+    nanos: 188760287
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1747127494
+    nanos: 899032360
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "hazard-avoidance-service"
+  type: "bosdyn.api.HazardAvoidanceService"
+  authority: "hazardavoidance.spot.robot"
+  last_update {
+    seconds: 1747127492
+    nanos: 243336322
+  }
+  user_token_required: true
+  permission_required: "hazard-avoidance-service"
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127480
+    nanos: 539009895
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.ground-clutter"
+  type: "bosdyn.api.internal.ground_clutter.GroundClutterService"
+  authority: "ground-clutter.spot.robot"
+  last_update {
+    seconds: 1747127486
+    nanos: 887555925
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1747127483
+    nanos: 572646576
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.long-range-map"
+  type: "bosdyn.api.internal.LongRangeMapService"
+  authority: "long-range-map.spot.robot"
+  last_update {
+    seconds: 1747127484
+    nanos: 301859
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "inverse-kinematics"
+  type: "bosdyn.api.spot.InverseKinematicsService"
+  authority: "inverse-kinematics.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 944126023
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 3633424
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "keepalive"
+  type: "bosdyn.api.keepalive.KeepaliveService"
+  authority: "keepalive.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 925152177
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127505
+    nanos: 987647825
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127505
+    nanos: 988137129
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1747127491
+    nanos: 832551761
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-status"
+  type: "bosdyn.api.log_status.LogStatusService"
+  authority: "logstatus.spot.robot"
+  last_update {
+    seconds: 1747127490
+    nanos: 122676071
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1747127494
+    nanos: 496699500
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1747127482
+    nanos: 952034378
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1747127496
+    nanos: 670060509
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1747127480
+    nanos: 914658314
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 62540903
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 64502707
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 55250883
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "pub-sub-bridge"
+  type: "bosdyn.api.internal.PubSubBridgeService"
+  authority: "pub-sub-bridge.spot.robot"
+  last_update {
+    seconds: 1747123329
+    nanos: 564328824
+  }
+  user_token_required: true
+  permission_required: "pub-sub-bridge"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1747127488
+    nanos: 220838950
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1747127494
+    nanos: 162511900
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 910150925
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-command-streaming"
+  type: "bosdyn.api.RobotCommandStreamingService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 954306792
+  }
+  user_token_required: true
+  permission_required: "robot-command-streaming"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 885073118
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1747127504
+    nanos: 745859739
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 668769672
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "robot-state-streaming"
+  type: "bosdyn.api.RobotStateStreamingService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747127498
+    nanos: 969292482
+  }
+  user_token_required: true
+  permission_required: "robot-state-streaming"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1747127486
+    nanos: 380539611
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1747127486
+    nanos: 550415355
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1747127479
+    nanos: 957165417
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "thermal-inspection"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "thermal-inspection.spot.robot"
+  last_update {
+    seconds: 1747123326
+    nanos: 667604636
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747127480
+    nanos: 256995454
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1747127491
+    nanos: 152019523
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+2025-05-13 14:53:21,062 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 62411008
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+
+2025-05-13 14:53:21,078 - DEBUG - Created client for lease
+2025-05-13 14:53:21,108 - DEBUG - Created client for estop
+2025-05-13 14:53:21,123 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2025-05-13 14:53:21,123 - DEBUG - Created client for power
+2025-05-13 14:53:21,155 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2025-05-13 14:53:21,171 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 62411008
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127506
+    nanos: 992434768
+  }
+  response_timestamp {
+    seconds: 1747127506
+    nanos: 992438926
+  }
+  error {
+    code: CODE_OK
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,203 - DEBUG - Created client for robot-state
+2025-05-13 14:53:21,235 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 235600896
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747112001
+    nanos: 62411008
+  }
+  server_rx {
+    seconds: 1747127506
+    nanos: 992434768
+  }
+  server_tx {
+    seconds: 1747127506
+    nanos: 992438926
+  }
+  client_rx {
+    seconds: 1747112001
+    nanos: 235600896
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,266 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2025-05-13 14:53:21,282 - DEBUG - Created client for robot-command
+2025-05-13 14:53:21,329 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2025-05-13 14:53:21,344 - DEBUG - Created client for image
+2025-05-13 14:53:21,344 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 344580352
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+resource: "body"
+
+2025-05-13 14:53:21,375 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 235600896
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 245164658
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 245171722
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 173185730
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 843430895
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,376 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 376588544
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747112001
+    nanos: 235600896
+  }
+  server_rx {
+    seconds: 1747127507
+    nanos: 245164658
+  }
+  server_tx {
+    seconds: 1747127507
+    nanos: 245171722
+  }
+  client_rx {
+    seconds: 1747112001
+    nanos: 376588544
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,531 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 344580352
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 321509668
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 322242626
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 16
+  client_names: "root"
+}
+lease_owner {
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+
+2025-05-13 14:53:21,561 - INFO - Starting lease check-in
+2025-05-13 14:53:21,561 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 376588544
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 430549835
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 430556661
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 140980584
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 939073470
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,562 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 562548736
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747112001
+    nanos: 376588544
+  }
+  server_rx {
+    seconds: 1747127507
+    nanos: 430549835
+  }
+  server_tx {
+    seconds: 1747127507
+    nanos: 430556661
+  }
+  client_rx {
+    seconds: 1747112001
+    nanos: 562548736
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,576 - DEBUG - Created client for robot-id
+2025-05-13 14:53:21,592 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 592542208
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 16
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+2025-05-13 14:53:21,608 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority id.spot.robot
+2025-05-13 14:53:21,624 - DEBUG - blocking request: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 624677632
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+
+2025-05-13 14:53:21,671 - DEBUG - response: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 624677632
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 570085282
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 570096990
+  }
+  error {
+    code: CODE_OK
+  }
+}
+robot_id {
+  serial_number: "spot-BD-10530010"
+  species: "spot"
+  version: "V3"
+  software_release {
+    version {
+      major_version: 4
+      minor_version: 1
+      patch_level: 1
+    }
+    changeset_date {
+      seconds: 1734114264
+    }
+    changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+    install_date {
+      seconds: 1734115580
+    }
+  }
+  nickname: "spot-BD-10530010"
+  computer_serial_number: "02-20420-0409"
+}
+
+2025-05-13 14:53:21,671 - DEBUG - blocking request: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 671676928
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+
+2025-05-13 14:53:21,718 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 562548736
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 522912027
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 522917183
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 185953366
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 960984608
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,749 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 749179648
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747112001
+    nanos: 562548736
+  }
+  server_rx {
+    seconds: 1747127507
+    nanos: 522912027
+  }
+  server_tx {
+    seconds: 1747127507
+    nanos: 522917183
+  }
+  client_rx {
+    seconds: 1747112001
+    nanos: 749179648
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,750 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 592542208
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 586376673
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 586595161
+  }
+  error {
+    code: CODE_OK
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 16
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 16
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 16
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "fan"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 16
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 16
+    client_names: "root"
+  }
+}
+
+2025-05-13 14:53:21,782 - DEBUG - Check-in successful
+2025-05-13 14:53:21,796 - DEBUG - response: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 671676928
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 698134315
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 699895424
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetEstopConfigRequest"
+    value: "\n:\n\014\010\301\240\213\301\006\020\200\364\243\300\002\022*WASDClientMidnight_X9520:__main__.py-55968"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "EStop"
+    timeout {
+      seconds: 5
+    }
+    cut_power_timeout {
+      seconds: 13
+    }
+  }
+  unique_id: "18"
+}
+
+2025-05-13 14:53:21,796 - DEBUG - blocking request: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 796176640
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+  }
+}
+target_config_id: "18"
+
+2025-05-13 14:53:21,796 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 749179648
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 697309886
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 697321665
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 186625756
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 867050413
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,904 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 904749824
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747112001
+    nanos: 749179648
+  }
+  server_rx {
+    seconds: 1747127507
+    nanos: 697309886
+  }
+  server_tx {
+    seconds: 1747127507
+    nanos: 697321665
+  }
+  client_rx {
+    seconds: 1747112001
+    nanos: 904749824
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,951 - DEBUG - response: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 796176640
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 806134315
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 807988952
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.SetEstopConfigRequest"
+    value: "\n:\n\014\010\301\240\213\301\006\020\200\342\322\373\002\022*WASDClientMidnight_X9520:__main__.py-55968\032 \n\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"\00218"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "19"
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:53:21,952 - DEBUG - Registering to 19
+2025-05-13 14:53:21,952 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 952380672
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "19"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  timeout {
+    seconds: 9
+  }
+}
+
+2025-05-13 14:53:21,952 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 904749824
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 850239244
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 850246042
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 155558397
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 870351039
+  }
+}
+state {
+  best_estimate {
+    round_trip_time {
+      nanos: 155558397
+    }
+    clock_skew {
+      seconds: 15505
+      nanos: 870351039
+    }
+  }
+  status: STATUS_OK
+  measurement_time {
+    seconds: 1747127507
+    nanos: 850244850
+  }
+}
+clock_identifier: "38acb83a-5ca6-4df6-bce5-daba3e3cea7f"
+
+2025-05-13 14:53:21,961 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 952380672
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 869134315
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 870503996
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\n:\n\014\010\301\240\213\301\006\020\200\332\220\306\003\022*WASDClientMidnight_X9520:__main__.py-55968\022\014\n\nPDB_rooted\032\00219"\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"
+  }
+}
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "19"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+status: STATUS_SUCCESS
+
+2025-05-13 14:53:21,962 - DEBUG - Doing check-in to seed challenge...
+2025-05-13 14:53:21,962 - DEBUG - Stopping
+2025-05-13 14:53:21,962 - DEBUG - blocking request: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_timestamp {
+    seconds: 1747112001
+    nanos: 962387456
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+}
+endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "19"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+stop_level: ESTOP_LEVEL_CUT
+
+2025-05-13 14:53:21,973 - DEBUG - response: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747112001
+      nanos: 962387456
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-55968"
+  }
+  request_received_timestamp {
+    seconds: 1747127507
+    nanos: 881234315
+  }
+  response_timestamp {
+    seconds: 1747127507
+    nanos: 882002768
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.EstopCheckInRequest"
+    value: "\n:\n\014\010\301\240\213\301\006\020\200\274\363\312\003\022*WASDClientMidnight_X9520:__main__.py-55968\022"\n\nPDB_rooted\022\010GNClient\032\00219"\002\010\t*\002\010\021(\001"
+  }
+}
+challenge: 41669230
+status: STATUS_INCORRECT_CHALLENGE_RESPONSE
+
+2025-05-13 14:53:21,974 - DEBUG - Registering to serial_number: "spot-BD-10530010"
+species: "spot"
+version: "V3"
+software_release {
+  version {
+    major_version: 4
+    minor_version: 1
+    patch_level: 1
+  }
+  changeset_date {
+    seconds: 1734114264
+  }
+  changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+  install_date {
+    seconds: 1734115580
+  }
+}
+nickname: "spot-BD-10530010"
+computer_serial_number: "02-20420-0409"
+
+2025-05-13 15:11:08,388 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 15:11:51,470 - DEBUG - Creating standard Sdk, cert glob: "None"
+2025-05-13 15:11:54,557 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2025-05-13 15:11:54,557 - DEBUG - Created client for auth
+2025-05-13 15:11:54,557 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_timestamp {
+    seconds: 1747113114
+    nanos: 557338880
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+username: "user"
+password: "qurrtsecso7z"
+
+2025-05-13 15:11:54,744 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113114
+      nanos: 557338880
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128620
+    nanos: 489378208
+  }
+  response_timestamp {
+    seconds: 1747128620
+    nanos: 655058182
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NDcxMjg2MjAsImlzcyI6InNwb3QtQkQtMTA1MzAwMTAiLCJleHAiOjE3NDcxNzE4MjAsImp0aSI6InNwb3QtQkQtMTA1MzAwMTA1MTYiLCJuYmYiOjE3NDcxMjg2MjAsInR5cCI6IkpXVCIsInVzZXIiOiJ1c2VyIiwibGV2ZWwiOjEsInBlciI6WyJzcG90LWNhbS12ZXJzaW9uIiwiaGF6YXJkLWF2b2lkYW5jZS1zZXJ2aWNlIiwicm9ib3Qtc3RhdGUiLCJyb2JvdC1taXNzaW9uIiwiZG9vciIsInJlY29yZGluZy1zZXJ2aWNlIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJwYXlsb2FkIiwicm9ib3Qtc3RhdGUtc3RyZWFtaW5nIiwibWFuaXB1bGF0aW9uIiwiYXVkaW8tdmlzdWFsIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJ0aW1lLXN5bmMiLCJkYXRhLWFjcXVpc2l0aW9uLXN0b3JlIiwiYXV0b3dhbGstc2VydmljZSIsInJvYm90LWNvbW1hbmQiLCJkYXRhLWFjcXVpc2l0aW9uIiwicG93ZXIiLCJzcG90LWNhbS1wdHoiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbGlnaHRpbmciLCJzcG90LWNhbS1hdWRpbyIsInNwb3QtY2FtLXBvd2VyIiwic3BvdC1jYW0tY29tcG9zaXRvciIsImF1dG8tcmV0dXJuIiwicm9ib3QtaWQiLCJzcG90LWNhbS1oZWFsdGgiLCJzZW5zb3ItcG9pbnRpbmctc2VydmljZSIsImltYWdlIiwiZmF1bHQiLCJsaWNlbnNlIiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLXN0YXR1cyIsImRhdGEtYnVmZmVyIiwicHViLXN1Yi1icmlkZ2UiLCJsb2ctYW5ub3RhdGlvbiIsInNwb3QtY2hlY2siLCJsZWFzZSIsInNwb3QtY2FtLW5ldHdvcmsiLCJwYXlsb2FkLXJlZ2lzdHJhdGlvbiIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1tZWRpYS1sb2ciLCJzcG90LWNhbS1zdHJlYW0tcXVhbGl0eSIsInJvYm90LWNvbW1hbmQtc3RyZWFtaW5nIiwic2Vuc29yLXBvaW50aW5nLXNlcnZpY2Utc3BvdGNhbSIsImRhdGEiLCJhdXRoIiwiZXN0b3AiLCJkaXJlY3RvcnkiLCJhcm0tc3VyZmFjZS1jb250YWN0Il19.EtfeHd1oSIgrSlN-ySn06_YMpYDyIMWermeb_4k9TKsrk7x2NhnmH18tRMg0zmlTSb7iPzKr7ICGlTDt0ucqrQ"
+
+2025-05-13 15:11:54,757 - DEBUG - Created client for time-sync
+2025-05-13 15:11:54,757 - DEBUG - Created client for directory
+2025-05-13 15:11:54,773 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2025-05-13 15:11:54,789 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_timestamp {
+    seconds: 1747113114
+    nanos: 789487360
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+
+2025-05-13 15:11:54,896 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113114
+      nanos: 789487360
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128620
+    nanos: 788548553
+  }
+  response_timestamp {
+    seconds: 1747128620
+    nanos: 788549609
+  }
+  error {
+    code: CODE_OK
+  }
+}
+service_entries {
+  name: "audio-visual"
+  type: "bosdyn.api.AudioVisualService"
+  authority: "audio-visual.spot.robot"
+  last_update {
+    seconds: 1747128602
+    nanos: 756725586
+  }
+  user_token_required: true
+  permission_required: "audio-visual"
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 990210261
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1747128598
+    nanos: 796979893
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "autowalk-service"
+  type: "bosdyn.api.autowalk.AutowalkService"
+  authority: "autowalk.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 606442482
+  }
+  user_token_required: true
+  permission_required: "autowalk-service"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 261355328
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1747128597
+    nanos: 458897918
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1747128609
+    nanos: 396173888
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1747128605
+    nanos: 441394863
+  }
+  user_token_required: true
+  permission_required: "data-acquisition-store"
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1747128597
+    nanos: 285777286
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1747128597
+    nanos: 678469426
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 18975182
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747123309
+    nanos: 24395738
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1747128594
+    nanos: 902359920
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1747128594
+    nanos: 376107774
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1747128620
+    nanos: 210623882
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 983245023
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "gps-aggregator"
+  type: "bosdyn.api.gps.AggregatorService"
+  authority: "aggregator.spot.robot"
+  last_update {
+    seconds: 1747128602
+    nanos: 996432392
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "gps-registration"
+  type: "bosdyn.api.gps.RegistrationService"
+  authority: "registration.spot.robot"
+  last_update {
+    seconds: 1747128603
+    nanos: 188729121
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1747128604
+    nanos: 898875799
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "hazard-avoidance-service"
+  type: "bosdyn.api.HazardAvoidanceService"
+  authority: "hazardavoidance.spot.robot"
+  last_update {
+    seconds: 1747128602
+    nanos: 243355997
+  }
+  user_token_required: true
+  permission_required: "hazard-avoidance-service"
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747128620
+    nanos: 543047047
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.ground-clutter"
+  type: "bosdyn.api.internal.ground_clutter.GroundClutterService"
+  authority: "ground-clutter.spot.robot"
+  last_update {
+    seconds: 1747128596
+    nanos: 887497522
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1747128593
+    nanos: 572441111
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "internal.long-range-map"
+  type: "bosdyn.api.internal.LongRangeMapService"
+  authority: "long-range-map.spot.robot"
+  last_update {
+    seconds: 1747128594
+    nanos: 354327
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "inverse-kinematics"
+  type: "bosdyn.api.spot.InverseKinematicsService"
+  authority: "inverse-kinematics.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 945709364
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 3910248
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "keepalive"
+  type: "bosdyn.api.keepalive.KeepaliveService"
+  authority: "keepalive.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 924964923
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 988871607
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 989654672
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1747128601
+    nanos: 832511902
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-status"
+  type: "bosdyn.api.log_status.LogStatusService"
+  authority: "logstatus.spot.robot"
+  last_update {
+    seconds: 1747128600
+    nanos: 122718974
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1747128604
+    nanos: 496583380
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1747128592
+    nanos: 951877979
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1747128606
+    nanos: 670132094
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1747128590
+    nanos: 914664023
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 62575627
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 64336562
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 55328015
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "pub-sub-bridge"
+  type: "bosdyn.api.internal.PubSubBridgeService"
+  authority: "pub-sub-bridge.spot.robot"
+  last_update {
+    seconds: 1747123329
+    nanos: 564328824
+  }
+  user_token_required: true
+  permission_required: "pub-sub-bridge"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1747128598
+    nanos: 220494418
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1747128604
+    nanos: 162332308
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 910007252
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-command-streaming"
+  type: "bosdyn.api.RobotCommandStreamingService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 954376947
+  }
+  user_token_required: true
+  permission_required: "robot-command-streaming"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 885097811
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 800104552
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 668748344
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "robot-state-streaming"
+  type: "bosdyn.api.RobotStateStreamingService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1747128608
+    nanos: 969285688
+  }
+  user_token_required: true
+  permission_required: "robot-state-streaming"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1747128596
+    nanos: 380623492
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1747128596
+    nanos: 545570269
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1747128619
+    nanos: 957273463
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "thermal-inspection"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "thermal-inspection.spot.robot"
+  last_update {
+    seconds: 1747123326
+    nanos: 667604636
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1747128620
+    nanos: 256999802
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1747128601
+    nanos: 151927139
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+2025-05-13 15:11:54,927 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113114
+    nanos: 927595776
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+
+2025-05-13 15:11:54,928 - DEBUG - Created client for lease
+2025-05-13 15:11:54,974 - DEBUG - Created client for estop
+2025-05-13 15:11:54,974 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2025-05-13 15:11:54,974 - DEBUG - Created client for power
+2025-05-13 15:11:55,006 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2025-05-13 15:11:55,006 - DEBUG - Created client for robot-state
+2025-05-13 15:11:55,007 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113114
+      nanos: 927595776
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128620
+    nanos: 908175487
+  }
+  response_timestamp {
+    seconds: 1747128620
+    nanos: 908179350
+  }
+  error {
+    code: CODE_OK
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,007 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 7348224
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113114
+    nanos: 927595776
+  }
+  server_rx {
+    seconds: 1747128620
+    nanos: 908175487
+  }
+  server_tx {
+    seconds: 1747128620
+    nanos: 908179350
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 7348224
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,022 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2025-05-13 15:11:55,022 - DEBUG - Created client for robot-command
+2025-05-13 15:11:55,038 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2025-05-13 15:11:55,054 - DEBUG - Created client for image
+2025-05-13 15:11:55,054 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 54152704
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+resource: "body"
+
+2025-05-13 15:11:55,194 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 7348224
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128620
+    nanos: 972985429
+  }
+  response_timestamp {
+    seconds: 1747128620
+    nanos: 972993929
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 79748585
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 940705418
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,194 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 194850304
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 7348224
+  }
+  server_rx {
+    seconds: 1747128620
+    nanos: 972985429
+  }
+  server_tx {
+    seconds: 1747128620
+    nanos: 972993929
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 194850304
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,194 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 54152704
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 34804663
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 35170235
+  }
+  error {
+    code: CODE_OK
+  }
+}
+status: STATUS_OK
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 17
+  client_names: "root"
+}
+lease_owner {
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+
+2025-05-13 15:11:55,195 - INFO - Starting lease check-in
+2025-05-13 15:11:55,209 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 209805568
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+lease {
+  resource: "body"
+  epoch: "KMdlAWLgFwNStkpR"
+  sequence: 17
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+2025-05-13 15:11:55,209 - DEBUG - Created client for robot-id
+2025-05-13 15:11:55,226 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority id.spot.robot
+2025-05-13 15:11:55,241 - DEBUG - blocking request: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 241807616
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+
+2025-05-13 15:11:55,303 - DEBUG - response: b'/bosdyn.api.RobotIdService/GetRobotId'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 241807616
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 205900605
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 205914024
+  }
+  error {
+    code: CODE_OK
+  }
+}
+robot_id {
+  serial_number: "spot-BD-10530010"
+  species: "spot"
+  version: "V3"
+  software_release {
+    version {
+      major_version: 4
+      minor_version: 1
+      patch_level: 1
+    }
+    changeset_date {
+      seconds: 1734114264
+    }
+    changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+    install_date {
+      seconds: 1734115580
+    }
+  }
+  nickname: "spot-BD-10530010"
+  computer_serial_number: "02-20420-0409"
+}
+
+2025-05-13 15:11:55,304 - DEBUG - blocking request: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 304624640
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+
+2025-05-13 15:11:55,333 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 194850304
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 128549834
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 128554493
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 187493580
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 871890415
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,333 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 333977088
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 194850304
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 128549834
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 128554493
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 333977088
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,393 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 209805568
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 205864728
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 206069946
+  }
+  error {
+    code: CODE_OK
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 17
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 17
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 17
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "fan"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 17
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "KMdlAWLgFwNStkpR"
+    sequence: 17
+    client_names: "root"
+  }
+}
+
+2025-05-13 15:11:55,393 - DEBUG - Check-in successful
+2025-05-13 15:11:55,409 - DEBUG - response: b'/bosdyn.api.EstopService/GetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 304624640
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 307101715
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 309459981
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetEstopConfigRequest"
+    value: "\n:\n\014\010\233\251\213\301\006\020\200\350\240\221\001\022*WASDClientMidnight_X9520:__main__.py-49760"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "EStop"
+    timeout {
+      seconds: 5
+    }
+    cut_power_timeout {
+      seconds: 13
+    }
+  }
+  unique_id: "25"
+}
+
+2025-05-13 15:11:55,440 - DEBUG - blocking request: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 440203008
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+  }
+}
+target_config_id: "25"
+
+2025-05-13 15:11:55,456 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 333977088
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 341857513
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 341864288
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 139122125
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 864138467
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,457 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 457102336
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 333977088
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 341857513
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 341864288
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 456101888
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,520 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 457102336
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 418689887
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 418699097
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 122118025
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 946821412
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,520 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 520129792
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 457102336
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 418689887
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 418699097
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 520129792
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,521 - DEBUG - response: b'/bosdyn.api.EstopService/SetEstopConfig'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 440203008
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 421108665
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 422732212
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.SetEstopConfigRequest"
+    value: "\n:\n\014\010\233\251\213\301\006\020\200\356\363\321\001\022*WASDClientMidnight_X9520:__main__.py-49760\032 \n\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"\00225"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "26"
+}
+status: STATUS_SUCCESS
+
+2025-05-13 15:11:55,521 - DEBUG - Registering to 26
+2025-05-13 15:11:55,521 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 521132288
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "26"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  timeout {
+    seconds: 9
+  }
+}
+
+2025-05-13 15:11:55,584 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 520129792
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 474094540
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 474100694
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 63018246
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 930078428
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,584 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 584127488
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 520129792
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 474094540
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 474100694
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 584127488
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,615 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 521132288
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 475208665
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 477079188
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\n:\n\014\010\233\251\213\301\006\020\200\262\277\370\001\022*WASDClientMidnight_X9520:__main__.py-49760\022\014\n\nPDB_rooted\032\00226"\036\n\nPDB_rooted\022\010GNClient"\002\010\t*\002\010\021"
+  }
+}
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "26"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+status: STATUS_SUCCESS
+
+2025-05-13 15:11:55,615 - DEBUG - Doing check-in to seed challenge...
+2025-05-13 15:11:55,615 - DEBUG - Stopping
+2025-05-13 15:11:55,631 - DEBUG - blocking request: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 631630336
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "26"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+stop_level: ESTOP_LEVEL_CUT
+
+2025-05-13 15:11:55,647 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 584127488
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 517778340
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 517785071
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 63991542
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 921968977
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,663 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 663625728
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 584127488
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 517778340
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 517785071
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 663625728
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,679 - DEBUG - response: b'/bosdyn.api.EstopService/EstopCheckIn'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 631630336
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 583108665
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 584869150
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.EstopCheckInRequest"
+    value: "\n:\n\014\010\233\251\213\301\006\020\200\324\227\255\002\022*WASDClientMidnight_X9520:__main__.py-49760\022"\n\nPDB_rooted\022\010GNClient\032\00226"\002\010\t*\002\010\021(\001"
+  }
+}
+challenge: 52806103
+status: STATUS_OK
+
+2025-05-13 15:11:55,679 - DEBUG - Registering to serial_number: "spot-BD-10530010"
+species: "spot"
+version: "V3"
+software_release {
+  version {
+    major_version: 4
+    minor_version: 1
+    patch_level: 1
+  }
+  changeset_date {
+    seconds: 1734114264
+  }
+  changeset: "9e5e2a42f2bb658cb939f0ea13fdf620cdda0292"
+  install_date {
+    seconds: 1734115580
+  }
+}
+nickname: "spot-BD-10530010"
+computer_serial_number: "02-20420-0409"
+
+2025-05-13 15:11:55,726 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 663625728
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 598413071
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 598418698
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 79491509
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 893905097
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,742 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 742333952
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 663625728
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 598413071
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 598418698
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 742333952
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,752 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1747113115
+      nanos: 742333952
+    }
+    client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+  }
+  request_received_timestamp {
+    seconds: 1747128621
+    nanos: 663767776
+  }
+  response_timestamp {
+    seconds: 1747128621
+    nanos: 663773238
+  }
+  error {
+    code: CODE_OK
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 78702597
+  }
+  clock_skew {
+    seconds: 15505
+    nanos: 895436044
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
+2025-05-13 15:11:55,752 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate'
+header {
+  request_timestamp {
+    seconds: 1747113115
+    nanos: 752822784
+  }
+  client_name: "WASDClientMidnight_X9520:__main__.py-49760"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1747113115
+    nanos: 742333952
+  }
+  server_rx {
+    seconds: 1747128621
+    nanos: 663767776
+  }
+  server_tx {
+    seconds: 1747128621
+    nanos: 663773238
+  }
+  client_rx {
+    seconds: 1747113115
+    nanos: 752822784
+  }
+}
+clock_identifier: "d5e982ac-7b24-4eb9-8daa-2dd060bd17b4"
+
