@@ -66,7 +66,7 @@ def stand_look_around(robot_command_client, duration=2.0, yaw_deg=0.0,pitch_deg=
     cmd = RobotCommandBuilder.synchro_stand_command(footprint_R_body=footprint_R_body)
     robot_command_client.robot_command(cmd)
 
-def Robot_movement(client, vx, vy, vr, duration=2.0, head_movement=True, head_delay = 0.5):
+def Robot_movement(client, vx, vy, vr, duration=2.0, head_movement=True, head_delay = 0.2):
     """Send velocity command to the robot and move head.
     Args:
         client: The RobotCommandClient instance.
@@ -123,16 +123,22 @@ def main():
             key = getch()
             print(f"Key pressed: {key}")
             if key == 'w':
-                Robot_movement(command_client, VELOCITY, 0, 0)
-            elif key == 's':
-                Robot_movement(command_client, -VELOCITY, 0, 0)
+                Robot_movement(command_client, VELOCITY, 0, 0, head_movement=False)
+            ##############################################################################
+            # # Disabled due to the fact that the robot should not move backward
+            # elif key == 's':
+                # Robot_movement(command_client, -VELOCITY, 0, 0)
             elif key == 'a':
+                print("Strafing left...")
                 Robot_movement(command_client, 0, VELOCITY, 0)
             elif key == 'd':
+                print("Strafing right...")
                 Robot_movement(command_client, 0, -VELOCITY, 0)
             elif key == 'q':
+                print("Rotating left...")
                 Robot_movement(command_client, 0, 0, ROTATION)
             elif key == 'e':
+                print("Rotating right...")
                 Robot_movement(command_client, 0, 0, -ROTATION)
             elif key == 'j':
                 print("Looking left...")
@@ -145,17 +151,22 @@ def main():
             elif key == 'i':
                 print("Look foward...")
                 send_velocity(command_client, 0, 0, 0)
-                stand_look_around(command_client, yaw_deg=5)    # yaw up 30°
+                stand_look_around(command_client, pitch_deg=5)    # yaw up 30°
             elif key == 'k':
                 print("Looking down...")
                 send_velocity(command_client, 0, 0, 0)
-                stand_look_around(command_client, yaw_deg=5)
+                stand_look_around(command_client, pitch_deg=-5)
             elif key == ' ':
                 send_velocity(command_client, 0, 0, 0)
+            elif key == 'b':
+                command_client.robot_command(RobotCommandBuilder.battery_change_pose_command())
+                time.sleep(10)
+                break
             elif key == 'x':
                 print("Exiting...")
                 send_velocity(command_client, 0, 0, 0)
                 break
+            
             
     finally:
         # if no payload do this 

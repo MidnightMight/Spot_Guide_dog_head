@@ -8,7 +8,7 @@ import bosdyn.client
 # DESCRIPTION
 #     The client library package.
 #     Sets up some convenience imports for commonly used classes.
-
+# Dir: C:\Users\buff1\miniconda3\envs\Spot_BD\spot-sdk
 # PACKAGE CONTENTS
 #     __main__
 #     area_callback
@@ -189,6 +189,10 @@ def main():
         subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_movement.py'), '192.168.80.3'])
         # robot.authenticate('user', 'qurrtsecso7z')
         
+    def run_nunchuck():
+        # Start the Nunchuck controller script
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_xbox_movement.py'), '192.168.80.3'])
+                            
     def wait_for_estop_start(logger: logging.Logger):
         """Wait for the E-stop check-in to start."""
         # import queue
@@ -224,6 +228,7 @@ def main():
     # Create threads for E-stop and WASD
     estop_thread = threading.Thread(target=run_estop, daemon=True)
     wasd_thread = threading.Thread(target=run_wasd, daemon=True)
+    # wasd_thread = threading.Thread(target=run_nunchuck, daemon=True)
 
     # Start threads
     estop_thread.start()
