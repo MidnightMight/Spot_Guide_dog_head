@@ -1,102 +1,4 @@
 import bosdyn.client
-# Removed unused import 'bosdyn.util'
-
-# '''
-# NAME
-#     bosdyn.client
-
-# DESCRIPTION
-#     The client library package.
-#     Sets up some convenience imports for commonly used classes.
-# Dir: C:\Users\buff1\miniconda3\envs\Spot_BD\spot-sdk
-# PACKAGE CONTENTS
-#     __main__
-#     area_callback
-#     area_callback_region_handler_base
-#     area_callback_service_runner
-#     area_callback_service_servicer
-#     area_callback_service_utils
-#     arm_surface_contact
-#     async_tasks
-#     auth
-#     auto_return
-#     autowalk
-#     bddf
-#     bddf_download
-#     channel
-#     command_line
-#     common
-#     data_acquisition
-#     data_acquisition_helpers
-#     data_acquisition_plugin
-#     data_acquisition_plugin_service
-#     data_acquisition_store
-#     data_buffer
-#     data_chunk
-#     data_service
-#     directory
-#     directory_registration
-#     docking
-#     door
-#     estop
-#     exceptions
-#     fault
-#     frame_helpers
-#     gps (package)
-#     graph_nav
-#     gripper_camera_param
-#     image
-#     image_service_helpers
-#     inverse_kinematics
-#     ir_enable_disable
-#     keepalive
-#     lease
-#     lease_resource_hierarchy
-#     lease_validator
-#     license
-#     local_grid
-#     log_status
-#     manipulation_api_client
-#     map_processing
-#     math_helpers
-#     metrics_logging
-#     network_compute_bridge_client
-#     payload
-#     payload_registration
-#     point_cloud
-#     power
-#     processors
-#     ray_cast
-#     recording
-#     resources (package)
-#     robot
-#     robot_command
-#     robot_id
-#     robot_state
-#     sdk
-#     server_util
-#     service_customization_helpers
-#     signals_helpers
-#     spot_cam (package)
-#     spot_check
-#     time_sync
-#     token_cache
-#     token_manager
-#     units_helpers
-#     util
-#     world_object
-
-# DATA
-#     BOSDYN_RESOURCE_ROOT = r'C:\Users\buff1\.bosdyn'
-
-# FILE
-#     c:\users\buff1\miniconda3\envs\spot_bd\lib\site-packages\bosdyn\client\__init__.py
-#     '''
-
-# Prior to start 
-# run this
-# & C:/Users/buff1/miniconda3/envs/Spot_BD/python.exe "d:/Github - repo/Spot_Guide_dog_head/estop_gui.py" 192.168.80.3
-
 import subprocess
 from bosdyn.client import create_standard_sdk
 from bosdyn.client.robot import Robot
@@ -153,7 +55,7 @@ class Leaser_system:
 
     def authentication(self):
         # Authenticate the robot
-        self.robot.authenticate('user', 'qurrtsecso7z') 
+        self.robot.authenticate('user', 'qurrtsecso7z')  # Replace with your password before use.
 
 class Basic_services:
     def get_pose(robot: Robot, frame_name: str):
@@ -173,26 +75,30 @@ class Basic_services:
 
 
 def main():
+    IP_Address_main = '192.168.80.3'
     """Command line interface."""
-    robot = Leaser_system.create_robot(robot_ip='192.168.80.3')
+    robot = Leaser_system.create_robot(robot_ip=IP_Address_main)
     robot.authenticate('user', 'qurrtsecso7z')
     parser = argparse.ArgumentParser(description='Establishes an e-stop connection to a robot.')
 
     def run_estop():
         # Execute E-stop GUI script from the same folder
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'estop_gui.py'), '192.168.80.3'])
-        # robot.authenticate('user', 'qurrtsecso7z')
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'estop_gui.py'), IP_Address_main])
+
 
     def run_wasd():
         # Start the WASD keyboard movement script
         
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_movement.py'), '192.168.80.3'])
-        # robot.authenticate('user', 'qurrtsecso7z')
-        
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_movement.py'), IP_Address_main])
+
     def run_nunchuck():
         # Start the Nunchuck controller script
-        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_xbox_movement.py'), '192.168.80.3'])
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'keyboard_xbox_movement.py'), IP_Address_main])
                             
+    def run_xbox_v2():
+        # Start the Xbox controller script
+        subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'xbox_v2_movement.py'), IP_Address_main])
+                        
     def wait_for_estop_start(logger: logging.Logger):
         """Wait for the E-stop check-in to start."""
         # import queue
@@ -228,7 +134,11 @@ def main():
     # Create threads for E-stop and WASD
     estop_thread = threading.Thread(target=run_estop, daemon=True)
     wasd_thread = threading.Thread(target=run_wasd, daemon=True)
-    # wasd_thread = threading.Thread(target=run_nunchuck, daemon=True)
+
+    # This thread is for the Xbox controller
+    # X_box_thread = threading.Thread(target=run_xbox_v2, daemon=True)
+    # camera_thread = threading.Thread(target=Basic_services.get_image, args=(robot, 'front_left_fisheye'), daemon=True)
+
 
     # Start threads
     estop_thread.start()
@@ -242,6 +152,15 @@ def main():
     if estop_thread.is_alive():
         print("E-stop thread is running.")
         wasd_thread.start()
+
+        print("WASD thread started.")
+        # Start the Xbox controller thread
+        # X_box_thread.start()
+        # print("Xbox controller thread started.")
+        # Start the camera thread
+        # camera_thread.start()
+        # print("Camera thread started.")
+
         while wasd_thread.is_alive():
             # Wait for the WASD thread to finish
             wasd_thread.join(timeout=1)
@@ -253,6 +172,10 @@ def main():
     # Wait for threads to complete
     estop_thread.join()
     wasd_thread.join()
+
+    # Threads for Xbox controller and camera can be started similarly
+    # X_box_thread.join()
+    # camera_thread.join()
     
 
 if __name__ == '__main__' and len(sys.argv) == 1:

@@ -28,7 +28,7 @@ def read_nunchuck():
     if Keys == 'w':
         return (0.0, 1.0, False, False, False)
     elif Keys == 's':
-        return (0.0, 0, False, False, False)
+        return (0.0, 0, False, False, False) # to be implemented as a U-turn and determine the movement.
     elif Keys == 'a':
         return (-1.0, 0.0, False, False, False)
     elif Keys == 'd':
@@ -41,8 +41,13 @@ def read_nunchuck():
         return (0.0, 0.0, False, False, True)  # Sit stand
     elif Keys == '':
         return (0.0, 0.0, False, False, False) # spacebar for terminate all
+    elif Keys == 'x':
+        print("Exiting...")
+        sys.exit(0)
+        
     else:
         return (0.0, -1.0, False, False, False)
+    
     
 
 #use for mocking

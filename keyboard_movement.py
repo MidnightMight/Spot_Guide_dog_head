@@ -143,15 +143,15 @@ def main():
             elif key == 'j':
                 print("Looking left...")
                 send_velocity(command_client, 0, 0, 0)
-                stand_look_around(command_client, yaw_deg=25)   # yaw left 30°
+                stand_look_around(command_client, yaw_deg=25)   # yaw left 30 deg
             elif key == 'l':
                 print("Looking right...")
                 send_velocity(command_client, 0, 0, 0)
-                stand_look_around(command_client, yaw_deg=-25)  # yaw right 30°
+                stand_look_around(command_client, yaw_deg=-25)  # yaw right 30 deg
             elif key == 'i':
                 print("Look foward...")
                 send_velocity(command_client, 0, 0, 0)
-                stand_look_around(command_client, pitch_deg=5)    # yaw up 30°
+                stand_look_around(command_client, pitch_deg=5)    # yaw up 30 deg
             elif key == 'k':
                 print("Looking down...")
                 send_velocity(command_client, 0, 0, 0)
