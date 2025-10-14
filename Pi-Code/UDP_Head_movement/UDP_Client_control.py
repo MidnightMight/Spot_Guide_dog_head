@@ -22,9 +22,14 @@ from adafruit_servokit import ServoKit
 # - The server initializes and calibrates the servo interface for head movement control.
 # - Each command is executed in a separate thread to avoid blocking the main server loop.
 # =========================================================================================================================
-# Version 2.0 (Latest) (04-10-2025)
+# Version 2.0 (04-10-2025)
 # - Updated the message parser to include more movement commands.
 # - Improved the Servo_interface function to handle smooth transitions between commands.
+# =========================================================================================================================
+# Version 2.1 (Latest)(14-10-2025)
+# - Added 1 more servo for head movement mimicking on the handle.
+# - Enhanced the servo control to handle multiple servos simultaneously.
+# - Improved error handling and input validation for servo commands.
 # =========================================================================================================================
 
 messages = queue.Queue()
@@ -63,16 +68,17 @@ class Head_movement_library:
     def Head_position_library(self,command):
         # Return default angles for the position from previous command
         # Dog head mapping s is center position while other letters are movement commands in reference to center position
+        turn = 50
         if command != 's':
             return {
                 'w': (180, 85,90),  # Look UP forward
                 'x': (50, 85,90),   # Look Down forward
-                'a': (110, 130,0), # Look Left
-                'd': (110, 40,180),   # Look Right
-                'q': (180, 130,0),    # Look Up Left
-                'e': (180, 40,180),    # Look Up Right
-                'z': (50, 130,0),   # Look Down Left
-                'c': (50, 40,180),    # Look Down Right
+                'a': (110, 130,90-turn), # Look Left
+                'd': (110, 40,90 + turn),   # Look Right
+                'q': (180, 130,90-turn),    # Look Up Left
+                'e': (180, 40,90+turn),    # Look Up Right
+                'z': (50, 130,90-turn),   # Look Down Left
+                'c': (50, 40,90+turn),    # Look Down Right
             }.get(command, (110, 85,90))  # Default position if command not found
         else:
             return (110, 85,90)  # Default position

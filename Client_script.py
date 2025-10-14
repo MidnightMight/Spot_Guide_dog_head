@@ -13,8 +13,8 @@ from threading import Thread as thread  # Use Thread for receiving messages
 # Current goal: create a udp client that send commands to a server
 # Open wrt
 # SERVER_IP = '192.168.1.168' # Uncomment this line to use the local IP address dynamically
-# SERVER_IP = '192.168.209.40' # peronal hotspot
-SERVER_IP = '192.168.0.213' # Home wifi
+SERVER_IP = '192.168.123.40' # peronal hotspot
+# SERVER_IP = '192.168.0.213' # Home wifi
 #Robot wifi IP for pi
 # SERVER_IP = '192.168.80.102' # Uncomment this line to use the local IP address dynamically
 SERVER_PORT = 5005
