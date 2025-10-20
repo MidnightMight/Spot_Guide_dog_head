@@ -11,10 +11,10 @@ import time
 import numpy as np
 import sys
 import msvcrt
-from bosdyn.client import create_standard_sdk
-from bosdyn.client.lease import LeaseClient, LeaseKeepAlive
-from bosdyn.client.robot_command import RobotCommandBuilder, RobotCommandClient
-import bosdyn.client.util
+# from bosdyn.client import create_standard_sdk
+# from bosdyn.client.lease import LeaseClient, LeaseKeepAlive
+# from bosdyn.client.robot_command import RobotCommandBuilder, RobotCommandClient
+# import bosdyn.client.util
 
 
 ## Note: this script is designed to run on a Raspberry Pi connected to Spot via a Lan.
@@ -25,7 +25,7 @@ import bosdyn.client.util
 # Version: 1.0
 
 # LAN port for Spot robot
-Spot_IP = "10.0.0.3" 
+# Spot_IP = "10.0.0.3" 
 
 
 # Configuration for Spot robot movement
@@ -38,46 +38,46 @@ standing = True  # Flag to check if Spot is standing
 
 def Recieve_commands():
 
-    sdk = create_standard_sdk("SpotUDPServerClient")
-    robot = sdk.create_robot(Spot_IP)  # Create a robot instance with the Spot IP address
+    # sdk = create_standard_sdk("SpotUDPServerClient")
+    # robot = sdk.create_robot(Spot_IP)  # Create a robot instance with the Spot IP address
 
-    # Authenticate the robot
-    try:
-        robot.authenticate('user', 'qurrtsecso7z')  # Replace with your credentials
-    except Exception as e:
-        print(f"Authentication failed: {e}")
-        return
-    bosdyn.client.util.authenticate(robot)  # Authenticate the robot using the SDK utility
-    robot.time_sync.wait_for_sync()  # Wait for time synchronization with the robot
+    # # Authenticate the robot
+    # try:
+    #     robot.authenticate('user', 'PWD')  # Replace with your credentials
+    # except Exception as e:
+    #     print(f"Authentication failed: {e}")
+    #     return
+    # bosdyn.client.util.authenticate(robot)  # Authenticate the robot using the SDK utility
+    # robot.time_sync.wait_for_sync()  # Wait for time synchronization with the robot
 
-    # Ensure the RobotCommandClient is available
-    try:
-        robot_command_client = robot.ensure_client(RobotCommandClient.default_service_name)
-    except Exception as e:
-        print(f"Failed to create RobotCommandClient: {e}")
-        return
-    # Ensure the LeaseClient is available
-    try:
-        lease_client = robot.ensure_client(LeaseClient.default_service_name)
-    except Exception as e:
-        print(f"Failed to create LeaseClient: {e}")
-        return
+    # # Ensure the RobotCommandClient is available
+    # try:
+    #     robot_command_client = robot.ensure_client(RobotCommandClient.default_service_name)
+    # except Exception as e:
+    #     print(f"Failed to create RobotCommandClient: {e}")
+    #     return
+    # # Ensure the LeaseClient is available
+    # try:
+    #     lease_client = robot.ensure_client(LeaseClient.default_service_name)
+    # except Exception as e:
+    #     print(f"Failed to create LeaseClient: {e}")
+    #     return
     
-    # Take a lease on the robot
-    try:
-        lease = lease_client.take()
-        lease_keep_alive = LeaseKeepAlive(lease_client, must_acquire=True, return_at_exit=True)
-    except Exception as e:
-        print(f"Failed to take lease: {e}")
-        return
+    # # Take a lease on the robot
+    # try:
+    #     lease = lease_client.take()
+    #     lease_keep_alive = LeaseKeepAlive(lease_client, must_acquire=True, return_at_exit=True)
+    # except Exception as e:
+    #     print(f"Failed to take lease: {e}")
+    #     return
     
-    print("Powering on...")
-    robot.power_on()
-    print("Standing up...")
-    robot_command_client.robot_command(RobotCommandBuilder.selfright_command())
-    time.sleep(10)
-    robot_command_client.robot_command(RobotCommandBuilder.synchro_stand_command())
-    time.sleep(2)
+    # print("Powering on...")
+    # robot.power_on()
+    # print("Standing up...")
+    # robot_command_client.robot_command(RobotCommandBuilder.selfright_command())
+    # time.sleep(10)
+    # robot_command_client.robot_command(RobotCommandBuilder.synchro_stand_command())
+    # time.sleep(2)
 
     """Thread to receive commands from the UDP server."""
     while True:
