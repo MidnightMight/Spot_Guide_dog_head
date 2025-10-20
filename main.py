@@ -28,7 +28,6 @@ if subprocess.run(["ping", "192.168.80.3"]):
 else:
     print("Ping failed")
     exit(1)
-                 
 # Connect to the robot and check version
 # Create SDK and robot instance
 class Leaser_system:
@@ -55,7 +54,7 @@ class Leaser_system:
 
     def authentication(self):
         # Authenticate the robot
-        self.robot.authenticate('user', 'qurrtsecso7z')  # Replace with your password before use.
+        self.robot.authenticate('user', 'PWD')  # Replace with your password before use.
 
 class Basic_services:
     def get_pose(robot: Robot, frame_name: str):
@@ -78,7 +77,7 @@ def main():
     IP_Address_main = '192.168.80.3'
     """Command line interface."""
     robot = Leaser_system.create_robot(robot_ip=IP_Address_main)
-    robot.authenticate('user', 'qurrtsecso7z')
+    robot.authenticate('user', 'PWD')
     parser = argparse.ArgumentParser(description='Establishes an e-stop connection to a robot.')
 
     def run_estop():
