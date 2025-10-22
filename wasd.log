@@ -1537,7 +1537,7 @@ header {
   client_name: "WASDClientMidnight_X9520:__main__.py-37592"
 }
 username: "user"
-password: "qurrtsecso7z"
+password: "--------PWD---------"
 
 2025-05-13 14:50:01,579 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
 header {
@@ -3348,7 +3348,7 @@ header {
   client_name: "WASDClientMidnight_X9520:__main__.py-55968"
 }
 username: "user"
-password: "qurrtsecso7z"
+password: "--------PWD---------"
 
 2025-05-13 14:53:20,949 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
 header {
@@ -4765,7 +4765,7 @@ header {
   client_name: "WASDClientMidnight_X9520:__main__.py-49760"
 }
 username: "user"
-password: "qurrtsecso7z"
+password: "--------PWD---------"
 
 2025-05-13 15:11:54,744 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
 header {
