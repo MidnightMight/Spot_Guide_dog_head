@@ -10,7 +10,7 @@ header {
   client_name: "WASDClientMidnight_X9520:__main__.py-66940"
 }
 username: "user"
-password: "qurrtsecso7z"
+password: "-------pwd---------"
 
 2025-05-13 14:47:23,928 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken'
 header {
