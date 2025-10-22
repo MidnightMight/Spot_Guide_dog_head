@@ -5,7 +5,7 @@ from bosdyn.client.auth import AuthClient
 # Replace these with your robot's details
 ROBOT_IP = "192.168.80.3"
 USERNAME = "user"
-PASSWORD = "qurrtsecso7z"
+PASSWORD = "-----------PWD---------------"
 
 def register_payload( GUID, Name_payload, DESC, Mount_name):
     sdk = create_standard_sdk('PayloadRegistrationClient')
