@@ -8,6 +8,7 @@ import board
 import busio
 from adafruit_pca9685 import PCA9685
 from adafruit_servokit import ServoKit
+from Serial_to_GPIO_v2 import calibrate_head_movement, Servo_initialize
 
 # This is for the Recieving and processing of UDP message device
 # Made by: Michael V.
@@ -43,13 +44,12 @@ server_ip = socket.gethostbyname(socket.gethostname())  # Get the local IP addre
 
 #Robot wifi IP for pi
 SERVER_IP = '192.168.80.102' # Uncomment this line to use the local IP address dynamically
-SERVER_IP = '192.168.0.213'
+# SERVER_IP = '192.168.0.213'
 SERVER_PORT = 5005
 
 server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server.bind((SERVER_IP, SERVER_PORT))
 
-from Serial_to_GPIO_v2 import calibrate_head_movement, Servo_initialize
 class Head_movement_library:
     def message_parser(self,message):
         # Parse the incoming message and extract relevant information

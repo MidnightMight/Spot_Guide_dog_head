@@ -1,0 +1,3 @@
+Client script on the laptop
+
+Raspberry Pi: Serial to gpio, UDP_client_control.prototypes
