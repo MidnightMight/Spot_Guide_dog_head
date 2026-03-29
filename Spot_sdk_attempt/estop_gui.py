@@ -288,7 +288,7 @@ def main():
     # Create robot object
     sdk = bosdyn.client.create_standard_sdk('estop_gui')
     robot = sdk.create_robot(options.hostname)
-    robot.authenticate('user', 'qurrtsecso7z')  # Replace with your credentials
+    robot.authenticate('user', 'InsertPasswordHere')  # Replace with your credentials
     bosdyn.client.util.authenticate(robot)
 
     # Create estop client for the robot

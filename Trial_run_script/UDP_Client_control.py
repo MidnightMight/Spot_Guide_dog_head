@@ -1,3 +1,37 @@
+"""
+UDP_Client_control.py – Raspberry Pi UDP server with servo head-movement control.
+
+This is the **primary server script** for the trial run.  It binds a UDP socket on the
+Pi's fixed IP (``192.168.80.102:5005``), receives single-character movement commands
+from the laptop client, and drives three hobby servos (pan / tilt / handle-tilt)
+through a PCA9685 I²C PWM driver via the ``Head_movement_library`` class.
+
+Version history:
+    1.0  (25-07-2025) – Initial UDP server with basic servo commands.
+    1.5  (06-08-2025) – Multi-client broadcast, logging, threaded servo execution.
+    2.0  (04-10-2025) – Updated message parser with diagonal movement commands.
+    2.1  (14-10-2025) – Third servo (handle-tilt) added; S-curve smooth motion.
+
+Usage::
+
+    python UDP_Client_control.py
+
+The script initialises the servo interface on startup and calibration can be enabled
+by uncommenting the ``calibrate_head_movement(kit)`` call in ``broadcast()``.
+Press Ctrl+C to shut down gracefully; all logged messages are saved to
+``server_log.txt``.
+
+Command reference:
+    s – Centre (default position)
+    w – Look up
+    x – Look down
+    a – Look left
+    d – Look right
+    q – Look up-left
+    e – Look up-right
+    z – Look down-left
+    c – Look down-right
+"""
 import socket
 import time
 from threading import Thread

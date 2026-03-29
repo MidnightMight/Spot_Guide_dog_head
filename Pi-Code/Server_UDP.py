@@ -1,3 +1,20 @@
+"""
+Server_UDP.py – Standalone UDP relay / chat server for the Spot Guide Dog Head project.
+
+Run this on the Raspberry Pi (or any host) to receive UDP datagrams from one or more
+client devices (e.g. the operator's laptop).  Clients first send a ``nickname:<name>``
+message to register, after which any subsequent message is broadcast to all other
+connected clients.  All received messages are logged in memory and written to
+``server_log.txt`` on shutdown (Ctrl+C).
+
+Usage::
+
+    python Server_UDP.py
+
+The server binds to the machine's hostname-resolved IP address on port 5005.
+To use a fixed IP instead, comment out the ``get_local_ip()`` call and uncomment
+the ``SERVER_IP`` constant line.
+"""
 import socket
 import time
 from threading import Thread

@@ -1,5 +1,18 @@
 
 # UDP communication with Laptop or Microcontroller to control Spot's head movement
+# =================================================================================
+# Spot_functions.py – Spot SDK velocity / stand helpers (Pi version, prototype).
+#
+# This file is a reference / prototype that bundles two concerns:
+#   1. Spot SDK robot-movement helpers (``send_velocity``, ``stand_look_around``,
+#      ``Robot_movement``) that can be called from the Pi once the SDK is enabled.
+#   2. Servo smooth-motion helpers copied from Pi_servo_interface.py for convenience.
+#
+# Note: The Spot SDK imports at the top of this file are *not* commented out, so the
+# bosdyn packages must be installed for this script to import cleanly.
+#
+# Created by: Michael V.
+# Date: 28-07-2025
 import socket
 import time
 from threading import Thread

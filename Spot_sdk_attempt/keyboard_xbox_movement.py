@@ -1,4 +1,28 @@
 # spot_nunchuck_controller.py
+"""
+keyboard_xbox_movement.py (spot_nunchuck_controller) – Nunchuck / simulated-joystick
+controller for Boston Dynamics Spot.
+
+Simulates a nunchuck input device using the keyboard (``msvcrt`` on Windows).  The
+``read_nunchuck()`` function returns a joystick axis tuple that ``map_direction()``
+translates into robot velocity commands.
+
+Usage::
+
+    python keyboard_xbox_movement.py <ROBOT_IP>
+
+Before running, replace ``InsertPasswordHere`` in the ``robot.authenticate()`` call
+with your robot's actual password.
+
+Key bindings (nunchuck simulation):
+    W  – Forward
+    A  – Strafe left
+    D  – Strafe right
+    E  – E-Stop toggle
+    C  – Cycle speed preset (0.3 / 0.5 / 0.8 m/s)
+    L  – Sit / Stand toggle
+    X  – Exit immediately
+"""
 
 import time
 import numpy as np
@@ -103,7 +127,7 @@ def main():
     robot = sdk.create_robot(robot_ip)
 
     # Authenticate
-    robot.authenticate("user", "qurrtsecso7z")  # Replace with real creds
+    robot.authenticate("user", "InsertPasswordHere")  # Replace with real creds
     bosdyn.client.util.authenticate(robot)
     robot.time_sync.wait_for_sync()
 
