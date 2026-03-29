@@ -4,6 +4,18 @@
 # Developed by: Michael V.
 # Developed as a part of Spot Robotic guide dog head development project thesis for QCR QUT
 # Date: 2025-07-25
+#
+# Usage:
+#   python Client_script.py
+#
+#   Enter your nickname when prompted.  Then type single-character movement commands
+#   (w/a/s/d/q/e/z/x/c) to control the guide-dog head on the Raspberry Pi server, or
+#   type any other text to broadcast a message to all connected clients.
+#   Type 'exit' to disconnect gracefully.
+#
+# Network configuration:
+#   Set SERVER_IP below to the IP address of the Raspberry Pi running UDP_Client_control.py.
+#   Default port is 5005.
 
 
 import socket

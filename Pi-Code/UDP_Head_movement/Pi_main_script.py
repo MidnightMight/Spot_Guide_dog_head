@@ -1,5 +1,28 @@
 
 # UDP communication with Laptop or Microcontroller to control Spot's head movement
+# =================================================================================
+# Pi_main_script.py – Raspberry Pi main entry point.
+#
+# Binds a UDP socket on the Pi's local IP (port 5005) and spawns a background thread
+# that continuously receives single-character movement commands.  Commands are
+# forwarded to ``Command_to_head_movement()`` (defined in Serial_to_GPIO.py) which
+# translates them into servo angles.
+#
+# The Spot SDK integration (authentication, leasing, power-on, robot commands) is
+# present in this file as commented-out stubs.  Uncomment those blocks and fill in
+# your robot IP / credentials when a direct SDK connection from the Pi is needed.
+#
+# Created by: Michael V.
+# Date: 28-07-2025
+# Version: 1.0
+#
+# Usage::
+#
+#     python Pi_main_script.py
+#
+# Prerequisites:
+#     pip install bosdyn-client numpy  (for Spot SDK stubs)
+#     pip install adafruit-circuitpython-servokit  (for servo control)
 import socket
 import time
 from threading import Thread
@@ -43,7 +66,7 @@ def Recieve_commands():
 
     # # Authenticate the robot
     # try:
-    #     robot.authenticate('user', 'PWD')  # Replace with your credentials
+    #     robot.authenticate('user', 'InsertPasswordHere')  # Replace with your credentials
     # except Exception as e:
     #     print(f"Authentication failed: {e}")
     #     return

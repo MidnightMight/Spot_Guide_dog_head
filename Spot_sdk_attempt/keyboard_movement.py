@@ -1,3 +1,33 @@
+"""
+keyboard_movement.py – WASD keyboard controller for Boston Dynamics Spot.
+
+Connects to Spot via the Boston Dynamics SDK, powers on the robot, and then enters
+a key-press loop so an operator can drive Spot from a laptop keyboard.
+
+Usage::
+
+    python keyboard_movement.py <ROBOT_IP>
+
+Before running, replace ``InsertPasswordHere`` in the ``robot.authenticate()`` call
+with your robot's actual password.
+
+Key bindings:
+    W        – Move forward
+    A        – Strafe left
+    D        – Strafe right
+    Q        – Rotate left (yaw)
+    E        – Rotate right (yaw)
+    J        – Look left  (body yaw via stand command)
+    L        – Look right (body yaw via stand command)
+    I        – Look forward / pitch up (body pitch via stand command)
+    K        – Look down  (body pitch via stand command)
+    SPACE    – Stop (zero velocity)
+    B        – Move to battery-change pose and exit
+    X        – Stop and exit
+
+Note: ``getch()`` uses ``msvcrt`` (Windows).  On Linux, replace calls to ``getch()``
+with ``getch_linux()`` which is also defined in this file.
+"""
 import sys
 import time
 import numpy as np
@@ -91,7 +121,7 @@ def main():
     robot = sdk.create_robot(robot_ip)
 
     # Authenticate and sync time
-    robot.authenticate('user', 'qurrtsecso7z')  # Replace with your credentials
+    robot.authenticate('user', 'InsertPasswordHere')  # Replace with your credentials
     bosdyn.client.util.authenticate(robot)
     robot.time_sync.wait_for_sync()
 

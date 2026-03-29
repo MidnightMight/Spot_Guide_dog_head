@@ -1,3 +1,23 @@
+"""
+main.py – Orchestrator for the Spot Guide Dog Head laptop-side control.
+
+Connects to Spot (default IP: ``192.168.80.3``), then launches two threads:
+  1. E-Stop GUI (``estop_gui.py``) – PyQt5 software E-Stop button.
+  2. WASD keyboard controller (``keyboard_movement.py``) – drives Spot.
+
+The script waits ~5 s for the E-Stop check-in to initialise before starting the
+movement thread.
+
+Usage::
+
+    python main.py
+
+Before running, replace ``InsertPasswordHere`` in the authentication calls with your
+robot's actual password, and update ``IP_Address_main`` to your robot's IP address.
+
+Additional controller scripts (Xbox / nunchuck) are present but commented out; see
+``run_nunchuck()`` and ``run_xbox_v2()`` for reference.
+"""
 import bosdyn.client
 import subprocess
 from bosdyn.client import create_standard_sdk
@@ -54,7 +74,7 @@ class Leaser_system:
 
     def authentication(self):
         # Authenticate the robot
-        self.robot.authenticate('user', 'PWD')  # Replace with your password before use.
+        self.robot.authenticate('user', 'InsertPasswordHere')  # Replace with your password before use.
 
 class Basic_services:
     def get_pose(robot: Robot, frame_name: str):
@@ -77,7 +97,7 @@ def main():
     IP_Address_main = '192.168.80.3'
     """Command line interface."""
     robot = Leaser_system.create_robot(robot_ip=IP_Address_main)
-    robot.authenticate('user', 'PWD')
+    robot.authenticate('user', 'InsertPasswordHere')
     parser = argparse.ArgumentParser(description='Establishes an e-stop connection to a robot.')
 
     def run_estop():

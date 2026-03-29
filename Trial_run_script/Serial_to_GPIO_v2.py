@@ -1,3 +1,22 @@
+"""
+Serial_to_GPIO_v2.py – Servo initialisation and calibration routines for the guide-dog head.
+
+Provides:
+    ``Servo_initialize()``       – Creates and returns a 16-channel ServoKit instance with
+                                   servos reset to their default angles.
+    ``calibrate_head_movement()`` – Runs a full range-of-motion sweep so you can verify
+                                   mechanical limits before normal operation.
+
+Hardware:
+    Raspberry Pi 5 → I²C (SDA/SCL) → PCA9685 PWM driver → servos 0, 1, 2
+    Servo 0: tilt (up/down)  – straight ≈ 110°, up ≈ 180°, down ≈ 50°
+    Servo 1: pan  (left/right) – centre ≈ 85°, left ≈ 130°, right ≈ 40°
+    Servo 2: handle-tilt (roll) – centre ≈ 90°
+
+Dependencies::
+
+    pip install adafruit-circuitpython-pca9685 adafruit-circuitpython-servokit numpy
+"""
 import time
 import numpy as np
 import sys

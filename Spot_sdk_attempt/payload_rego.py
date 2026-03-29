@@ -1,3 +1,18 @@
+"""
+payload_rego.py – Register the Raspberry Pi guide-dog head payload with Spot.
+
+Run this script once the first time you set up the payload.  It authenticates with
+the robot and registers the Pi + head assembly under a fixed GUID so that Spot
+recognises it as an authorised payload.
+
+Usage::
+
+    python payload_rego.py
+
+Before running:
+    1. Set ``ROBOT_IP`` to your robot's IP address.
+    2. Replace ``InsertPasswordHere`` with your robot's actual password.
+"""
 from bosdyn.client import create_standard_sdk, ResponseError
 from bosdyn.client.payload import PayloadClient, make_payload
 from bosdyn.client.auth import AuthClient
@@ -5,7 +20,7 @@ from bosdyn.client.auth import AuthClient
 # Replace these with your robot's details
 ROBOT_IP = "192.168.80.3"
 USERNAME = "user"
-PASSWORD = "qurrtsecso7z"
+PASSWORD = "InsertPasswordHere"
 
 def register_payload( GUID, Name_payload, DESC, Mount_name):
     sdk = create_standard_sdk('PayloadRegistrationClient')
